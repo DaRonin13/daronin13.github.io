@@ -1,0 +1,78 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+
+
+        p, select, input {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        
+
+        button, input[type="button"] {
+            padding: 10px 20px;
+            margin: px;
+            background-color: #724b11;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover, input[type="button"]:hover {
+            background-color: #c1924b;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, td {
+            border: 2px solid #333;
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td input {
+            width: 50px;
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            color: #5c67f2;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        td input[type="number"] {
+            -moz-appearance: textfield; 
+        }
+
+        td.suma {
+            background-color: #f9f9f9;
+            font-weight: bold;
+            color: #444;
+        }
+
+        #verificar {
+            margin-top: 20px;
+            font-size: 24px;
+            color: crimson;
+        }
+
+        select {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
