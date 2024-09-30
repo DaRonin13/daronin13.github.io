@@ -1,0 +1,20 @@
+.imagen {
+    width: 100px;
+    height: 160px;
+}
+
+table{
+    background-image: url("../img/Fondo1.jpg");
+    display: inline-table;
+}
+
+button, input[type="button"] {
+    padding: 10px 20px;
+    margin: px;
+    background-color: #8d3ea7;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
